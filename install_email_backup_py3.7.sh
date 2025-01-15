@@ -6,7 +6,7 @@
 # services_emailbackup.php do seu repositório GitHub.
 
 HEAD_INC="/usr/local/www/head.inc"
-EMAIL_BACKUP_LINE='$services_menu[] = array(gettext("Email backup"), "/services_emailbackup_py3.7.php");'
+EMAIL_BACKUP_LINE='$services_menu[] = array(gettext("Email backup"), "/services_emailbackup.php");'
 
 echo "==> Iniciando instalação do Email Backup no pfSense..."
 
