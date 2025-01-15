@@ -26,7 +26,7 @@ $EMAIL_BACKUP_LINE
 fi
 
 # 2) Baixar o arquivo services_emailbackup.php do GitHub
-echo "Baixando o arquivo services_emailbackup_py3.7.php do GitHub..."
+echo "Baixando o arquivo services_emailbackup.php do GitHub..."
 fetch -o /usr/local/www/services_emailbackup.php \
   https://raw.githubusercontent.com/danillofpc/pfsense/main/services_emailbackup_py3.7.php
 
@@ -35,4 +35,4 @@ chmod 644 /usr/local/www/services_emailbackup.php
 
 # 4) Mensagem final
 echo "Instalação concluída!"
-echo "Acesse 'Services > Email backup' na GUI do pfSense para usar o script."
+echo "Acesse 'Services > Email Backup' na GUI do pfSense para usar o script."
